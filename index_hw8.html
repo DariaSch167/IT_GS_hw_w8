@@ -11,9 +11,47 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous" />
     <!-- Далее может идти подключение любого другого CSS файла сайта -->
-    <link href="style.css" rel="stylesheet" />
+    <link href="index_hw8.css" rel="stylesheet" />
+    <style>
+      #buy_box {
+        min-height: 100px;
+      }
+      .dif_row {
+        min-height: 50px;
+      }
+    </style>
   </head>
   <body>
     <h1>Hello World!</h1>
+    <p>Here we'll have more code and then Bootsrap scripts in the end</p>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col border">Gallery</div>
+        <div class="col">
+          <div class="row">
+            <div class="col border">Title</div>
+          </div>
+          <div class="row" id="buy_box">
+            <div class="col border">Buy Box</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col border dif_row">Description</div>
+      </div>
+      <div class="row">
+        <div class="col border dif_row">Related</div>
+      </div>
+    </div>
+    <!-- Подключение JS файла Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <!-- Подключение JS файла Bootstrap с плагинами -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"></script>
   </body>
 </html>
